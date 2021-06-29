@@ -1,0 +1,15 @@
+.navbar {
+    min-height: 80px;
+    
+}
+
+a {
+    font-size: x-large;
+}
+
+.navbar-brand {
+    width: 170px;
+    left: 15px;
+    background-size: contain;
+
+}
