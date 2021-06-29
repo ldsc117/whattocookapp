@@ -9,12 +9,12 @@ const NavBar = () => {
     
       <Navbar expand="sm" bg="info" variant="dark" te>
          
-        <Navbar.Brand href="#home">WhatToCook</Navbar.Brand>
+        <Navbar.Brand href="/">WhatToCook</Navbar.Brand>
         <Nav className="mr-auto">
-          <Nav.Link href="#home">Home</Nav.Link>
-          <Nav.Link href="#features">Recipes</Nav.Link>
-          <Nav.Link href="#pricing">Ingredients</Nav.Link>
-          <Nav.Link href="#pricing">Enter App</Nav.Link>
+          <Nav.Link href="/">Home</Nav.Link>
+          <Nav.Link href="/recipes">Recipes</Nav.Link>
+          <Nav.Link href="/ingredients">Ingredients</Nav.Link>
+          <Nav.Link href="/app">Enter App</Nav.Link>
         </Nav>
         
       </Navbar>

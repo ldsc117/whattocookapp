@@ -5,6 +5,8 @@
 
 a {
     font-size: x-large;
+    margin-left: 10px;
+    margin-right: -8px;
 }
 
 .navbar-brand {
