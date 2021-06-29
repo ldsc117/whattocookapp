@@ -37,3 +37,31 @@
     transform: translateY(0px);
   }
 }
+
+.card-container {
+  display: flex;
+  flex-flow: row wrap;
+  margin-top:50px;
+  margin:50px;
+  border-style: solid;
+  border-width: 4px;
+}
+
+.ingredient-card {
+  margin: 15px;
+  margin-right: -1px;
+  box-shadow: 0px 0px 12px -5px turquoise;
+  border-style:solid;
+  border-color:rgb(255, 253, 138);
+  border-width: 3px;
+}
+.border {
+  margin:10px;
+  margin-bottom:20px;
+}
+
+.ingredient-card:hover{
+  transform: scale(1.1);
+  box-shadow: 0px 0px 15px 0px turquoise;
+}
+
