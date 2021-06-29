@@ -1,0 +1,31 @@
+[
+    {
+        "id": 1,
+        "name": "egg",
+        "categories": [
+            "protein",
+            "animal-product",
+            "vegetarian"
+        ],
+        "jpg": "https://api.time.com/wp-content/uploads/2019/01/gettyimages-914246230.jpg"
+    },
+    {
+        "id": 2,
+        "name": "sunflower oil",
+        "categories": [
+            "oils",
+            "vegan",
+            "vegetarian"
+        ],
+        "jpg": "https://benipaltraders.com/images/sunflower_oil.jpg"
+    },
+    {
+        "id": 3,
+        "name": "chicken (general)",
+        "categories": [
+            "protein",
+            "animal-product"
+        ],
+        "jpg": "https://www.foodsafetynews.com/files/2014/11/Raw-whole-chicken.jpg"
+    }
+]
