@@ -1,0 +1,51 @@
+[
+    {
+        "id": 1,
+        "name": "oven baked fried fries",
+        "description": "Deep frying isn't the ONLY way to get crispy fries",
+        "ingredients": [
+            {
+                "potato": "3 russet potatoes (about 24 oz. total), peeled and cut lengthwise into even sized wedges"
+            },
+            {
+                "oil": "5 tbsp. vegetable, canola or peanut oil, divided"
+            },
+            {
+                "pepper": "Salt and Pepper"
+            }
+        ],
+        "cookingTimeMinutes": 45,
+        "calories": 131,
+        "vegan": true,
+        "vegetarian": true,
+        "directions": [
+            "Preheat the oven to 475˚ F. Place the potato wedges in a large mixing bowl. Cover with hot water; soak for 10-30 minutes. Put 4 tablespoons of the oil onto a heavy, rimmed baking sheet. Tilt the sheet side to side to evenly coat the pan with oil (a pastry brush can also help with this). Sprinkle the pan evenly with the salt and pepper. Set aside.",
+            "Drain the potatoes. Spread the wedges out on layers of paper towels or on clean kitchen towels. Pat dry with additional towels. Wipe out the now empty bowl so it is dry. Return the potatoes to the bowl and toss with the remaining 1 tablespoon of oil. Arrange the potato wedges on the prepared baking sheet in a single layer. Cover tightly with foil and bake for 5 minutes. Remove the foil and continue to bake until the bottoms of the potatoes are spotty golden brown, 15-20 minutes, rotating the baking sheet after 10 minutes. Using a metal spatula and tongs, flip each potato wedge keeping them in a single layer. Continue baking until the fries are golden and crisp, 5 -15 minutes. Rotate the pan as needed to ensure even browning.",
+            "When the fries are finished baking, transfer to a paper-towel lined plate to drain some of the grease. Season with additional salt and pepper to taste. Serve warm."
+        ],
+        "jpg": "https://myfridgefood.com/media/7309/ovenfries.jpg"
+    },
+    {
+        "id": 2,
+        "name": "easy hard boiled eggs",
+        "description": "The easiest, most effective way to hard boil an egg (no green rings around yolks!)",
+        "ingredients": [
+            {
+                "egg": "One or more eggs"
+            }
+        ],
+        "cookingTimeMinutes": 10,
+        "calories": 63,
+        "vegan": false,
+        "vegetarian": true,
+        "directions": [
+            "Fill a small, medium or large pan 3/4 full with tapwater (depending on how many eggs you desire to cook).",
+            "Place on the stove over High heat.",
+            "Once water reaches a boil, place desired quantity of eggs in the water using a Tablespoon or measuring cup. Turn heat down to med-high to prevent overflow.",
+            "Let eggs BOIL for 5 minutes then SHUT THE HEAT OFF and let them sit in the hot water for 15 more minutes.",
+            "After 15 minutes, run cold water into the pan until only cool water is left. Crack and peel your beautifully cooked, perfect eggs.",
+            "Sprinkle with salt and/or pepper for a snack or use in any recipe calling for hard boiled eggs! ENJOY!"
+        ],
+        "jpg": "https://myfridgefood.com/Media/Recipe/1340747622eggs.jpg"
+    }
+]

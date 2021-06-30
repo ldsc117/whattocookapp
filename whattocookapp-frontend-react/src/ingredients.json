@@ -11,9 +11,9 @@
     },
     {
         "id": 2,
-        "name": "sunflower oil",
+        "name": "oil (general)",
         "categories": [
-            "oils",
+            "oil",
             "vegan",
             "vegetarian"
         ],
@@ -27,5 +27,25 @@
             "animal-product"
         ],
         "jpg": "https://www.foodsafetynews.com/files/2014/11/Raw-whole-chicken.jpg"
+    },
+    {
+        "id": 4,
+        "name": "potato",
+        "categories": [
+            "vegetable",
+            "vegetarian",
+            "vegan"
+        ],
+        "jpg": "https://sc04.alicdn.com/kf/U340ae04c3e9841f4b1bdc34325aee078f.jpg"
+    },
+    {
+        "id": 5,
+        "name": "pepper (grounded)",
+        "categories": [
+            "spice",
+            "vegetarian",
+            "vegan"
+        ],
+        "jpg": "https://d1e3z2jco40k3v.cloudfront.net/-/media/mccormickforchefs2017/our-difference/spice-story/2000/spice-story-black-pepper.jpg?rev=0103f6e819914d24aa469d3c988c16eb&vd=20210604T145011Z&hash=6C66A4F191FD855D35FFB24BAA60E701"
     }
 ]

@@ -6,9 +6,11 @@ import { store } from './redux/store';
 import { Provider } from 'react-redux';
 import * as serviceWorker from './serviceWorker';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import background from "./img/background-whattocookapp.jpg";
+
 
 ReactDOM.render(
-  <React.StrictMode>
+  <React.StrictMode style={{ backgroundImage: `url(${background})`, height: "100%"  } }>
     <Provider store={store}>
       <App />
     </Provider>

@@ -8,8 +8,8 @@ const IngredientCard = ({ ingredient }) => {
   return (
     <div class="ingredient-card">
       
-      <Card style={{ width: "12rem" , height:"25rem" }}>
-        <Card.Img variant="top" src={ingredient.jpg}/>
+      <Card style={{ width: "12rem" , height: "30rem"  }}>
+        <Card.Img variant="top" src={ingredient.jpg} roundedCircle  />
         <Card.Body>
           <Card.Title>{ingredient.name}</Card.Title>
           <Card.Text>

@@ -6,11 +6,13 @@ import  RecipesPage  from "./components/RecipesPage";
 import  IngredientsPage  from "./components/IngredientsPage";
 import  AppPage  from "./components/AppPage";
 
+
+
 import { BrowserRouter as Router, Switch , Route } from 'react-router-dom';
 
 function App() {
   return (
-    <div className="App">
+    <div className="App" >
       <Router>
       <NavBar />
       <Switch>
