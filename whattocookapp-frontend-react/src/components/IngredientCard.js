@@ -9,7 +9,7 @@ const IngredientCard = ({ ingredient }) => {
     <div class="ingredient-card">
       
       <Card style={{ width: "12rem" , height: "30rem"  }}>
-        <Card.Img variant="top" src={ingredient.jpg} roundedCircle  />
+        <Card.Img variant="top" src={ingredient.jpg}  />
         <Card.Body>
           <Card.Title>{ingredient.name}</Card.Title>
           <Card.Text>
@@ -18,7 +18,7 @@ const IngredientCard = ({ ingredient }) => {
           <div className="border border-warning">
           {ingredient.categories.map((category)=>(
               <h6>{category}</h6>))}</div>
-          <Button variant="primary">Go somewhere</Button>
+          <Button variant="warning">Check Recipes</Button>
         </Card.Body>
       </Card>
     </div>

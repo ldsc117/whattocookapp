@@ -1,10 +1,10 @@
-import React from "react";
 import Card from 'react-bootstrap/Card';
 import Button from 'react-bootstrap/Button';
 import "../App.css";
 
 const RecipeCard = ({ recipe }) => {
-  console.log(recipe);
+  
+  
   return (
     <div class="recipe-card">
       
@@ -25,7 +25,7 @@ const RecipeCard = ({ recipe }) => {
             <Card.Text>
            {recipe.description}
           </Card.Text>
-          <Button variant="success">Check Recipe</Button>
+          <Button href= {`/recipes/${recipe.id}`} variant="success">Check Recipe</Button>
         </Card.Body>
       </Card>
     </div>

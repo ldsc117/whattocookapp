@@ -3,6 +3,7 @@ import logo from './logo.svg';
 import './App.css';
 import  NavBar  from "./components/NavBar";
 import  RecipesPage  from "./components/RecipesPage";
+import  RecipePage  from "./components/RecipePage";
 import  IngredientsPage  from "./components/IngredientsPage";
 import  AppPage  from "./components/AppPage";
 
@@ -18,6 +19,7 @@ function App() {
       <Switch>
       <Route path="/" exact component={Home}/>
       <Route path="/recipes" exact component={RecipesPage}/>
+      <Route path="/recipes/:id" exact component={RecipePage}/>
       <Route path="/ingredients" exact component={IngredientsPage}/>
       <Route path="/app" exact component={AppPage}/>
       {/* <Route path="/company/:id" component={CarByCompany}/> 
