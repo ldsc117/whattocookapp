@@ -147,3 +147,29 @@
   min-width: 220px;
 }
 
+.card-container-app-ingredients {
+  display: flex;
+  flex-flow: row wrap;
+  box-shadow: 5px 10px darkturquoise;
+  border-radius: 20px;
+  max-width: fit-content;
+  margin:auto;
+  margin-top: 50px;
+  background-color: rgba(245, 222, 179, 1);
+  min-height: 50px ;
+  padding: 20px;
+}
+
+.card-container-app-recipes {
+  display: flex;
+  flex-flow: row wrap;
+  box-shadow: 5px 10px darkturquoise;
+  border-radius: 20px;
+  max-width: fit-content;
+  margin:auto;
+  margin-top: 50px;
+  background-color: rgba(245, 222, 179, 1);
+  min-height: 50px ;
+  
+  padding: 20px;
+}
