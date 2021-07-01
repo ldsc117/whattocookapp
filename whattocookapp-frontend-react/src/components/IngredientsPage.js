@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from "react";
 import ingredients from '../ingredients.json';
-import CardColumns from 'react-bootstrap/CardColumns'
 import IngredientCard from './IngredientCard';
 import "../App.css";
 

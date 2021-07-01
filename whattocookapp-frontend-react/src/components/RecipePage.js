@@ -24,18 +24,23 @@ const RecipePage = ({ match }) => {
             <br />
             <br />
             <h4>Ingredients:</h4>
-            {recipe.ingredients.map((ingredient) => {
-              for (const [key, value] of Object.entries(ingredient)) {
-                return <text>{value}</text>;
-              }
-            })}
+            <ul>
+              {recipe.ingredients.map((ingredient) => {
+                for (const [key, value] of Object.entries(ingredient)) {
+                  return <li>{value}</li>;
+                }
+              })}
+            </ul>
           </div>
         </div>
         <div className="recipe-directions">
-            <h3>Recipe Directions:</h3><br/>
-          <ol>{recipe.directions.map((line)=>(
+          <h3>Recipe Directions:</h3>
+          <br />
+          <ol>
+            {recipe.directions.map((line) => (
               <li>{line}</li>
-          ))}</ol>
+            ))}
+          </ol>
         </div>
       </div>
     </div>
